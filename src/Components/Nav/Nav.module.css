@@ -1,0 +1,43 @@
+.navBar{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  margin-bottom: 2vw;
+  padding: 0.5vw 2vw;
+  height: calc(2.5rem + 0.5vw);
+}
+
+p {
+  margin: 0;
+  align-self: center;
+  font-size: calc(0.6rem + 1vw);
+  line-height: 1;
+}
+
+nav {
+  display: flex;
+  align-self: center;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  margin-left: 2vw;
+  text-decoration: none;
+  font-size: calc(0.6em + 1vw);
+  line-height: 1;
+  color: black;
+  transition: linear, 5;
+}
+
+a:hover {
+  text-decoration: line-through;
+}
+
+a:first-child {
+  margin-left: 10vw;
+}

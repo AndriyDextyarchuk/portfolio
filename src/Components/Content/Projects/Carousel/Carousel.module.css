@@ -1,0 +1,56 @@
+.carousel {
+    padding-top: calc((100vh - 7.5vw - 2.5rem) * 0.12);
+    height: 76%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cardList {
+    height: 80%;
+    padding-left: 16vw;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1vh;
+}
+
+.card {
+    display: inline-block;
+    list-style: none;
+    margin-left: 5vw;
+}
+
+.cardContent{
+    width: 50vw;
+    height: 95%;
+    box-shadow: 0em 2em 1em -0.7em  rgba(0, 0, 0, 0.4);
+    display: block;
+    background-size: cover;
+}
+
+.buttonPanel{
+    display: flex;
+    align-items: flex-end;
+    width: 75vw;
+    height: 3%;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.navButtons {
+    display: flex;
+    flex-grow: 1;
+    height: 100%;
+    border:none;
+    transition: height .3s ease-out;
+}
+
+.navButtons:hover,
+.navButtons:focus{
+    height: 160%;
+    outline: 0;
+}
+
